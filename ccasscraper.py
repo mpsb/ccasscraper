@@ -106,3 +106,5 @@ else:
     df1 = df1.astype({'Shareholding': 'int32'})
 
     df1.to_excel('output.xlsx')
+
+driver.close()
